@@ -1,0 +1,55 @@
+.card {
+    width: 328px;
+    padding: 10px 30px;
+    background-color: var(--colorPrimary);
+    border-radius: 10px;
+}
+
+.cardHeadingPrimary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--white);
+}
+
+.Primary1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.Primary1 h2 {
+    margin: 5px 0 ;
+}
+.Primary2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.3rem;
+    
+}
+
+.cardHeadingSecondary {
+    margin-bottom: 40px;
+}
+
+.secondaryText {
+    color: var(--colorLightGrey);
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: var(--colorBodyBackground);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 1rem;
+    color: var(--white);
+}
+

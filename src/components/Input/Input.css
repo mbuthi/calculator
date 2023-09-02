@@ -1,0 +1,39 @@
+
+.inputs {
+    text-align: left;
+
+}
+
+.label {
+    color: var(--white);
+    cursor: pointer;   
+    padding-bottom: 5px;
+}
+
+.label label { 
+    cursor: pointer;
+    font-weight: 700;
+    font-size: .95rem;
+}
+
+.label svg {
+    margin-left: 5px;
+    height: 0.8rem;
+    font-weight: 700;
+    stroke-width: 60;
+}
+
+.input input {
+    background-color: var(--colorBodyBackground);
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    padding: 20px 5px;
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.input input:focus {
+    outline: none;
+}
