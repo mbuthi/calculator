@@ -4,11 +4,16 @@ import {AiTwotoneSetting} from "react-icons/ai"
 import {IoRefreshSharp} from "react-icons/io5"
 import {AiOutlineArrowDown} from "react-icons/ai"
 import Input from "../Input/Input";
+import Button from "../Button/Button";
+import logoImg from "../../assets/images/logo.png"
 
 const Card = () => {
     return (
         <>
         <div className="card">
+            <div className="coinImg">
+                <img src={logoImg} alt="" />
+            </div>
             <div className="cardHeading">
                 <div className="cardHeadingPrimary">
                     <div className="Primary1">
@@ -35,12 +40,17 @@ const Card = () => {
 
                 <div className="slipTolerance">
                     <div className="slipText">
-
+                        <span>
+                            Slippage Tolerance
+                        </span>
                     </div>
                     <div className="slipPercent">
-                        
+                        <span>
+                            0.5%
+                        </span>
                     </div>
                 </div>
+                <Button />
             </div>
         </div>
         </>

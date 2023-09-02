@@ -3,8 +3,19 @@
     padding: 10px 30px;
     background-color: var(--colorPrimary);
     border-radius: 10px;
+    position: relative;
 }
 
+.coinImg img {
+    width: 150px;
+}
+
+.coinImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-45%, -34%);
+}
 .cardHeadingPrimary {
     display: flex;
     align-items: center;
@@ -23,6 +34,7 @@
 
 .Primary1 h2 {
     margin: 5px 0 ;
+    font-size: 20px;
 }
 .Primary2 {
     display: flex;
@@ -53,3 +65,19 @@
     color: var(--white);
 }
 
+.slipTolerance {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.slipText {
+    color: var(--colorPurple);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.slipPercent {
+    color: var(--colorOrangeBright);
+    font-weight: 800;
+}
