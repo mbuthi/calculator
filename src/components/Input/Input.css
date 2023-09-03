@@ -4,24 +4,7 @@
 
 }
 
-.label {
-    color: var(--white);
-    cursor: pointer;   
-    padding-bottom: 5px;
-}
 
-.label label { 
-    cursor: pointer;
-    font-weight: 700;
-    font-size: .95rem;
-}
-
-.label svg {
-    margin-left: 5px;
-    height: 0.8rem;
-    font-weight: 700;
-    stroke-width: 60;
-}
 
 .input input {
     background-color: var(--colorBodyBackground);
