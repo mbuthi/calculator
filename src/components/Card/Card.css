@@ -150,15 +150,15 @@
 .slipCaption {
     text-align: left;
 }
-.slipCaption span {
-    font-weight: 500;
-}
+
 
 .question {
     color: var(--colorLightGrey);
     margin-left: 10px;
 }
-
+.settingsTxt {
+    font-weight: 500;
+}
 .tolerancePercent {
     display: flex;
     justify-content: space-between;
@@ -181,4 +181,33 @@
     border-radius: 25px !important;
     height: 0px !important;
 
+}
+
+.deadline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 36px;
+    padding: 10px 0;
+}
+
+.deadlineTxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settingsInputDeadline {
+    width: 30px;
+}
+
+.settingsInputDeadline input {
+    padding: 5px 10px !important;
+}
+
+.expertMode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-right: 14px;
 }

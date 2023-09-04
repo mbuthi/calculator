@@ -9,6 +9,7 @@ import Button from "../Button/Button";
 import logoImg from "../../assets/images/logo.png"
 import croImg from "../../assets/images/cro.png"
 import Popup from "../Popup/Popup";
+import Toggle from "../Toggle/Toggle";
 import { useState } from "react";
 const Card = () => {
     const [buttonPopUp, setButtonPopUp] = useState(false)
@@ -36,7 +37,7 @@ const Card = () => {
                     </div>
                     <div className="popBody">
                         <div className="slipCaption">
-                            <span>Slippage Tolerance 
+                            <span className="settingsTxt">Slippage Tolerance 
                                 <span className="question"><AiOutlineQuestionCircle /></span></span>
                         </div>
                         <div className="tolerancePercent">
@@ -46,6 +47,32 @@ const Card = () => {
                             <Input placeholder="0.50" numbersOnly={true} />
                             <span>%</span>
                         </div>
+                        <div className="deadline">
+                            <div className="deadlineTxt">
+                            <span className="settingsTxt">
+                                Tx deadline (mins) 
+                                
+                            </span>
+                            <span className="question"><AiOutlineQuestionCircle /></span>
+                            </div>
+                            <div className="settingsInputDeadline">
+                                <Input />
+                            </div>
+                            
+                        </div>
+                        <div className="expertMode">
+                        <div className="deadlineTxt">
+                            <span className="settingsTxt">
+                            Expert Mode
+                                
+                            </span>
+                            <span className="question"><AiOutlineQuestionCircle /></span>
+                            </div>
+                            <div className="toggleCustom">
+                                <Toggle />
+                            </div>
+                        </div>
+
                     </div>
                 </Popup>
                 <Popup trigger={buttonPopUp} setTrigger={setButtonPopUp}>
