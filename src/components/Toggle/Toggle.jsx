@@ -1,10 +1,10 @@
 import React from "react";
 import "./Toggle.css"
-const Toggle = () => {
+const Toggle = ({ id }) => {
     return (
         <div>
-            <input type="checkbox" id="check1" class="toggle" />
-            <label for="check1"></label>
+            <input type="checkbox" id={id} class="toggle" />
+            <label htmlFor={id}></label>
             {/* <br />
             <input type="checkbox" id="check2" class="toggle" />
             <label for="check2">Checked?</label>

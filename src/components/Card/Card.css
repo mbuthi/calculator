@@ -211,3 +211,28 @@
     padding: 10px 0;
     margin-right: 14px;
 }
+
+.swap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.priceImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.priceImg img {
+    width: 20px;
+}
+
+.arrDown {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+}

@@ -14,6 +14,7 @@ import { useState } from "react";
 const Card = () => {
     const [buttonPopUp, setButtonPopUp] = useState(false)
     const [buttonPopUp2, setButtonPopUp2] = useState(false)
+    const [buttonPopUp3, setButtonPopUp3] = useState(false)
     return (
         <>
         <div className="card">
@@ -29,7 +30,9 @@ const Card = () => {
                         <AiTwotoneSetting
                         onClick={() => {setButtonPopUp2(true)}}
                          />
-                        <IoRefreshSharp />
+                        <IoRefreshSharp
+                        
+                         />
                     </div>
                     <Popup trigger={buttonPopUp2} setTrigger={setButtonPopUp2}>
                     <div className="popHeading">
@@ -69,10 +72,21 @@ const Card = () => {
                             <span className="question"><AiOutlineQuestionCircle /></span>
                             </div>
                             <div className="toggleCustom">
-                                <Toggle />
+                            <Toggle id="toggle1" />
                             </div>
                         </div>
-
+                        <div className="expertMode">
+                        <div className="deadlineTxt">
+                            <span className="settingsTxt">
+                            Disable Multihops
+                                
+                            </span>
+                            <span className="question"><AiOutlineQuestionCircle /></span>
+                            </div>
+                            <div className="toggleCustom">
+                            <Toggle id="toggle2" />
+                            </div>
+                        </div>
                     </div>
                 </Popup>
                 <Popup trigger={buttonPopUp} setTrigger={setButtonPopUp}>
@@ -109,6 +123,41 @@ const Card = () => {
                         </div>
                     </div>
                 </Popup>
+                <Popup trigger={buttonPopUp3} setTrigger={setButtonPopUp3}>
+                    <div className="popHeading">
+                        <h2 className="popHeadingText">Confirm Swap</h2>
+                    </div>
+                    <div className="popBody">
+                        <div className="swap">
+                            
+                            <div className="priceImg">
+                                <img src={croImg} alt="" />
+                                <span>0.99393</span>
+                            </div>                
+                            
+                            <div className="swapName">
+                                CRO
+                            </div>
+                        </div>  
+                        <div className="arrDown">
+                            <AiOutlineArrowDown />
+                        </div>     
+                        <div className="swap">
+                            
+                            <div className="priceImg">
+                                <img src={logoImg} alt="" />
+                                <span>0.99393</span>
+                            </div>                
+                            
+                            <div className="swapName">
+                                TROLL
+                            </div>
+                        </div> 
+                        <Button 
+                        name="confirm swap"
+                        />               
+                    </div>
+                </Popup>
                 </div>
                 <div className="cardHeadingSecondary">
                     <div className="secondaryText">
@@ -143,12 +192,15 @@ const Card = () => {
                         </span>
                     </div>
                     <div className="slipPercent">
-                        <span>
+                        <span >
                             0.5%
                         </span>
                     </div>
                 </div>
-                <Button />
+                <Button 
+                name="swap"
+                onClick={() => {setButtonPopUp3(true)}}
+                />
             </div>
         </div>
         </>
