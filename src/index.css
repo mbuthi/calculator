@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -24,4 +28,23 @@ code {
   --colorSuccess: #31d0aa;
   --colorYellow: #F7E987;
   --colorDark: #272829;
+}
+
+.textHeading2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.textHeading3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.textBody {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fontBold {
+  font-weight: 700;
 }

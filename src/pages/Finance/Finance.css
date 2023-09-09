@@ -1,0 +1,105 @@
+.tallyAmmount {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tallyText {
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.tallyNumber {
+    font-size: 30px;
+}
+
+.tallyNumber h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.savingsLoans {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 50px 20px;
+}
+
+.savingsLoans div {
+    padding: 0 0 20px 0;
+}
+.flex {
+    
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    align-items: flex-start;
+}
+
+.savings {
+    align-self: flex-start;
+    margin-bottom: 220px;
+}
+
+.loans {
+    align-self: flex-end;
+}
+
+.sText {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.shText {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.left {
+    text-align: left;
+}
+
+.sDescription {
+    font-size: 16px;
+}
+
+#sButton .btn {
+    background-color: var(--colorYellow);
+    color: var(--colorDark);
+    border-radius: 0;
+    padding: 15px 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.featuresHeading {
+    color: var(--white);
+    text-align: left;
+}
+
+.featuresBody {
+    padding: 100px 20px;   
+}
+
+.item {
+    color: var(--white);
+    text-align: left;
+    padding: 30px 0 0 0;
+}
+.item div{
+    padding: 20px 0 20px 0;
+}
+
+.itemImg svg{
+    height: 128px;
+}
+
+.featureItems {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
