@@ -28,6 +28,7 @@ code {
   --colorSuccess: #31d0aa;
   --colorYellow: #F7E987;
   --colorDark: #272829;
+  --colorBlueish: #000024;
 }
 
 .textHeading2 {
@@ -47,4 +48,12 @@ code {
 
 .fontBold {
   font-weight: 700;
+}
+
+.mb2 {
+  margin-bottom: 20px;
+}
+
+.p5020 {
+  padding: 50px 20px;
 }

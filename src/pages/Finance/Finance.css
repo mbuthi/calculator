@@ -103,3 +103,44 @@
     gap: 30px;
     align-items: center;
 }
+
+.faqs {
+    color: var(--white);
+}
+
+.faqBody {
+    width: 50%;
+    text-align: left;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+}
+.communityBody {
+    color: var(--white);
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    background-color: var(--colorBlueish);
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.whitepaper {
+    text-decoration: none;
+    color: var(--white);
+}
+
