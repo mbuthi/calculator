@@ -21,7 +21,8 @@ const Hero = () => {
                     </p>
                     <div id="twinButtons" >
                         <div className="heroB1">
-                            <Button name="Enter App" />
+                            <Button name="Enter App"
+                            url="/calculator" />
                         </div>
                         <div className="heroB2">
                             <Button name="Whitepaper"/>

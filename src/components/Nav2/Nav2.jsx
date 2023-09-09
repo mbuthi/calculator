@@ -11,7 +11,8 @@ const Nav2 = () => {
             <div>
                 <ul id="navbar2">
                     <li>
-                        <Button name="Enter App" />
+                        <Button name="Enter App"
+                        url="/calculator" />
                     </li>
                     {/* <li>
                         <a className="navIcons world" href=""><TbWorld/></a>
